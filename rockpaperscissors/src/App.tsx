@@ -27,7 +27,7 @@ function App() {
       {
           setMessage("The round has ended, you've lost!");
       }
-      else
+      else//oops
       {
          setMessage("The round has ended, you've won!");
       }
