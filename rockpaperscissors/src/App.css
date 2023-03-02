@@ -1,0 +1,45 @@
+body{
+  background-image: url("C:/Users/Ex Machina/Desktop/RevatureDemos/RockPaperScissors/GameSite_ZPMM/rockpaperscissors/src/desktop-wallpaper-rock-scissor-paper-funny-background-cute-simple-funny-computer-background.jpg");
+}
+.header{
+    text-align: center;
+}
+.round-counter{
+    text-align: center;
+    
+}
+
+.button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.internal-div {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+/* player side styling */
+.player-choice{
+    float: left
+
+}
+.player-output{
+    height: auto;
+    max-width: 75%;
+}
+
+/* computer side styling */
+.computer-choice{
+    float: right;
+
+}
+.computer-output {
+    height: auto;
+    max-width: 50%;
+}
+
