@@ -34,7 +34,25 @@ function App() {
     }
     else if(choice==2)
     {
-      
+      if(computerChoice==3)
+      {
+          setMessage("The round has ended, you've lost!");
+      }
+      else
+      {
+         setMessage("The round has ended, you've won!");
+      }
+    }
+    else if (choice == 3)
+    {
+      if(computerChoice==1)
+      {
+          setMessage("The round has ended, you've lost!");
+      }
+      else
+      {
+         setMessage("The round has ended, you've won!");
+      }
     }
 
   }
